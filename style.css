@@ -1,0 +1,73 @@
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: black;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#0af9f5 20%, #12fa0a 80%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+.profile {
+    width: 540px;
+    height: 500px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family:
+    ;
+    font-weight: 600;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: "Cinzel Decorative";
+}
+
+#bio {
+    padding: 100px;
+    background-color: #33691E;
+    font-size: 40px;
+    color: #E8F5E9;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: aqua;
+}
